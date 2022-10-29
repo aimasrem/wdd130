@@ -19,7 +19,6 @@ nav a {
 
 #hero-msg h1, #hero-msg h4 {
     text-align : center;
-    
 }
 
 #hero-msg{
@@ -190,6 +189,11 @@ footer .social img {
 .card-img:hover{
     opacity: .6;
     transform: scale(1.1);
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 .mountains {
