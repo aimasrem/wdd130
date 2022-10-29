@@ -98,17 +98,17 @@ nav a:hover {
 }
 
 #background {
-    height : 725px;
+    height : 700px;
     background-color :#12ac1f;
     color: black;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     grid-column: 1/11;
     grid-row: 4/9;
 }
 
 .msg {
     background-color : rgb(26, 195, 237);
-    padding: 35px;
+    padding: 50px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
@@ -119,6 +119,7 @@ footer{
     color: black;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
